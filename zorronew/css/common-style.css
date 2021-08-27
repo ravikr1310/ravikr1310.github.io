@@ -378,6 +378,10 @@ div.fordesktop {
     padding-top: 32px;
     padding-bottom: 45px;
 }
+.card-view .footer-container .container.inner-container {
+  padding-top: 60px;
+  padding-bottom: 53px;
+}
 
 .container-custom.privacy .footer-container .container.inner-container{
   max-width: 100%;
@@ -672,8 +676,8 @@ section.express-thoughts-container {
   margin-bottom: 38px;
 }
 .footer-container .container.inner-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   max-width: 100%;
   padding-left: 100px;
   padding-right: 100px;
@@ -691,6 +695,9 @@ section.express-thoughts-container {
 .footer-container .social-row {
   padding-bottom: 55px;
 }
+.card-view .footer-container .social-row {
+  padding-bottom: 35px;
+}
 .footer-container h5.fs-mr {
   margin-right: 9px;
 }
@@ -707,7 +714,7 @@ section.express-thoughts-container {
 ******************************************/
 
 .card-margin {
-  margin-bottom: 3.3rem;
+  margin-bottom: 2.6rem;
 }
 
 .card {
@@ -727,7 +734,7 @@ section.express-thoughts-container {
   background-clip: border-box;
   border: 4px solid #e6e4e9;
   border-radius: 20px;
-  padding: 40px 40px 0px 40px;
+  padding: 18px 18px 0px 18px;
 }
 
 .card .card-header.no-border {
@@ -1039,9 +1046,10 @@ nav.card-big-logo{
 }
 .cards-section .row{
   display: flex;
-    padding-right: 43px;
-    justify-content: center;
-    padding-left: 17px;
+  justify-content: center;
+  max-width: 100%;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 .body-content {
   padding: 10px 25px;
@@ -1069,7 +1077,7 @@ nav.card-big-logo{
   color: #fff;
   padding: 20px;
   border-radius: 12px;
-  margin-bottom: 100px;
+  margin-bottom: 55px;
 }
 .card-social .c1 {
   display: flex;
@@ -1111,9 +1119,15 @@ nav.card-big-logo{
 }
 .cards-section .container.inner-container {
   max-width: 100%;
+  height: calc(100vh - 484px);
 }
-
-
+.card-view .footer-menu {
+  padding-left: 167px;
+}
+.cards-section .card-social .row {
+  padding-left: 30px;
+  padding-right: 0px;
+}
 
 
 
@@ -1243,6 +1257,9 @@ nav.card-big-logo{
       max-width: 100%;
       padding: 10px 70px;
     }
+    .footer-container .container.inner-container{
+      padding: 59px 0px;
+    }
     .app-features-container h1 {
       font-size: 32px;
       margin-bottom: 0;
@@ -1265,7 +1282,7 @@ nav.card-big-logo{
       background-position: top -42px right 93px;
     }
     .banner-section h1.mb-4.pb-2 {
-      padding-top: 0px;
+      padding-top: 30px;
       padding-bottom: 0px !important;
       font-size: 4vh;
     }
@@ -1430,13 +1447,32 @@ nav.card-big-logo{
     }
     .zorro-mobile-view {
       background-color: #DD4413;
-      background: url(../images/polygon/Polygon-small1.png) right 4% top 7% no-repeat, url(../images/polygon/Polygon-small2.png) left 22px bottom 50% no-repeat,url(../images/polygon/Polygon-small2.png) right 424px top 1% no-repeat,url(../images/polygon/Polygon-small1.png) right 20px top 52% no-repeat, radial-gradient(#E2807F -239px,#AA4339 77%,#AA4339);
+      background: url(../images/polygon/Polygon-small1.png) right 4% top 8% no-repeat, url(../images/polygon/Polygon-small2.png) left 73px bottom 42% no-repeat,url(../images/polygon/Polygon-small2.png) right 434px top 0% no-repeat,url(../images/polygon/Polygon-small1.png) right 79px top 69% no-repeat, radial-gradient(#E2807F -239px,#AA4339 77%,#AA4339);
       vertical-align: middle;
       /* background-repeat: no-repeat,no-repeat; */
       min-height: 100vh;
+      background-size: 10vh;
       /* background-position: right 4% top 7%, left 22px bottom 50%, right 424px top 1%,right 20px top 52%; */
     }
     .banner-section img.overlap-mob {
       max-width: 30vh;
     }
+    .footer-container .social-row:nth-child(1){
+      width: 40%;
+      display: inline-block;
+    }
+    .footer-container .social-row:nth-child(2){
+      width: 59%;
+      display: inline-block;
+      text-align: right;
+    }
+    .footer-container .social-row:nth-child(3) img{
+      padding-right: 30px;
+    }
+    .footer-container .social-row img {
+      padding-right: 3px;
+    }
+    .footer-container .social-row:nth-child(2) a img {
+      max-width: 12vh;
+   }
   }
