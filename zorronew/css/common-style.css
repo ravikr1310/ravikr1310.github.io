@@ -727,7 +727,7 @@ section.express-thoughts-container {
   background-clip: border-box;
   border: 4px solid #e6e4e9;
   border-radius: 20px;
-  padding: 6px;
+  padding: 40px 40px 0px 40px;
 }
 
 .card .card-header.no-border {
@@ -1015,12 +1015,18 @@ text-transform: uppercase;
 section.cards-section {
   background-color: #fff;
   padding-top: 55px;
-  height: calc(100vh - 326px);
+  /* height: calc(100vh - 326px); */
+}
+.card-footer-container .nav-item .nav-link {
+  color: #fff;
+}
+.card-footer-container .nav-item .nav-link:hover{
+  color:red;
 }
 section.card-footer-container {
   background-color: #121212;
   padding: 66px 0 38px 0;
-  border-bottom: 1px solid #c1c1c1;
+  /* border-bottom: 1px solid #c1c1c1; */
 }
 nav.card-big-logo{
   background-color: #fff;
@@ -1059,11 +1065,11 @@ nav.card-big-logo{
   vertical-align: middle;
 }
 .card-social {
-  background: red;
+  background: #AA4339;
   color: #fff;
   padding: 20px;
   border-radius: 12px;
-  margin-bottom: 48px;
+  margin-bottom: 100px;
 }
 .card-social .c1 {
   display: flex;
@@ -1083,6 +1089,10 @@ nav.card-big-logo{
 }
 .card-footer-container .container.inner-container{
   position: relative;
+  height: calc(100vh - 841px);
+  max-width: 100%;
+  padding-left: 180px;
+  padding-right: 217px;
 }
 .card-footer-container .footer-menu {
   position: absolute;
@@ -1094,7 +1104,14 @@ nav.card-big-logo{
 .small-logo{
   display: none;
 }
-
+.container.container-custom.card-view {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.cards-section .container.inner-container {
+  max-width: 100%;
+}
 
 
 
