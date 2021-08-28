@@ -333,7 +333,8 @@ div.fordesktop {
     position: unset;
 }
 .about .about-container .ac {
-  padding-right: 426px;
+  margin: 0 auto;
+  padding-left: 316px;
 }
 .container-custom.about .container.inner-container{
   max-width: 100%;
@@ -1149,12 +1150,13 @@ nav.card-big-logo{
     img{
       max-width: 100%;
     }
-    .app-features-container .inner-container .mid-feature-img,.app-features-container .feature-arrow{
+    .app-features-container .inner-container .mid-feature-img{
       position: unset;
       padding-left: 32px;
       padding-right: 32px;
 
     }
+    
     .express-thoughts-container .inner-container .mob-2,.footer-container .footer-social {      
       right: 15px;
     }
@@ -1164,65 +1166,12 @@ nav.card-big-logo{
     .zorro,section{
       padding-right: 40px;
       padding-left: 40px;
+    }    
+    .footer-container.home-footer .nav-item .nav-link {
+      padding: 5px 28px 20px 0px;
     }
   }
-  @media screen and (max-width: 992px) {
 
-    .section {
-      padding: 5rem 0;
-    }
-
-    .nav-item .nav-link {
-      padding: 6px;
-    }
-
-    .navbar .social-icon {
-      margin-top: 22px;
-    }
-
-    .navbar-collapse,
-    .site-footer {
-      text-align: center;
-    }
-
-    .schedule-table {
-      display: block;
-    }
-
-    .modal-content {
-      padding: 2rem;
-    }
-  }
-  
-@media screen and (max-width:768px){
-  .container-custom {
-    max-width: 100%;
-    /* padding-left: 15px;
-    padding-right: 15px; */
-  }
-}
-  @media screen and (max-width: 767px) {
-
-    h1 {
-      font-size: 32px;
-    }
-    h4 {
-      font-size: 18px;
-    }
-    .about-working-hours {
-      border-left: 0;
-      padding: 22px 0 0 0;
-    }
-
-    .contact h2 span {
-      display: block;
-    }
-    .container-custom {
-      max-width: 100%;
-      /* padding-right: 15px;
-      padding-left: 15px; */
-    }
-  }
   @media only screen and (min-width:320px) and (max-width:768px){
     
     img{
@@ -1258,7 +1207,7 @@ nav.card-big-logo{
       padding: 10px 70px;
     }
     .footer-container .container.inner-container{
-      padding: 59px 0px;
+      padding: 35px 0px;
     }
     .app-features-container h1 {
       font-size: 32px;
@@ -1288,6 +1237,7 @@ nav.card-big-logo{
     }
     .banner-section .pb-2, .py-2 {
       padding-bottom: 1rem!important;
+      font-size: 24px;
     }
     .banner-section a.btn.btn-default {
       display: unset;
@@ -1300,7 +1250,7 @@ nav.card-big-logo{
     }
     .banner-section h4.main-header-subtitle {
       width: 100%;
-      font-size: 12px;
+      font-size: 24px;
       padding:0 50px 21px 50px
     }
     .feature-img img,.mid-feature-img img{
@@ -1361,6 +1311,7 @@ nav.card-big-logo{
     }
     .app-features-container .feature-arrow-1{
       right: 0;
+      padding-left: 0;
     }
     nav.navbar.main-menu{
       background-color: #DD4413;
@@ -1471,8 +1422,341 @@ nav.card-big-logo{
     }
     .footer-container .social-row img {
       padding-right: 3px;
+      width: 8vh;
     }
     .footer-container .social-row:nth-child(2) a img {
       max-width: 12vh;
    }
+   .footer-menu p {
+      margin-bottom: 10px;
+    }
+    .footer-container .social-row {
+      padding-bottom: 23px;
+    }
+    .app-features-container .feature-arrow {
+      left:0;
+      padding-left: 32px;
+      padding-right: 14px;
+    }
+    /* about responsive */
+    .zorro.about-header{
+      min-height: auto;
+    }
+    .zorro, section{
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .about .about-container .ac{
+      padding-right: 0;
+      padding-left: initial;
+    }
+    .about .footer-container .social-row:nth-child(1) {
+      width: auto;
+      display: inline-block;
+    }
+    .about .footer-container .social-row:nth-child(2) {
+      width: auto;
+      display: inline-block;
+      text-align: right;
+    }
+    .about .footer-container .footer-social{
+      display: inline-block;
+      width: 55%;
+    }
+    .about .footer-container .footer-menu{
+      width:45%
+    }
+    .about .footer-menu ul.navbar-nav {
+      position: absolute;
+      right: 15px;
+    }
+    .about .zorro, .about section {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .container-custom.privacy .privacy-header .container.inner-container{
+      display: none;
+    }
+    .zorro.privacy-header{
+      min-height: 0;
+    }
+    .container-custom.card-view .container.inner-container {
+      height: auto;
+      padding: 10px 20px;
+    }
+    .cards-section .row {
+      display: unset;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    section.cards-section {
+      padding-top: 0;
+    }
+    .chat-status .c1{
+      display: inline;
+    }
+    .widget-49 .widget-49-meeting-action{
+      text-align: center;
+    }
   }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px)  {
+    
+
+  }
+ 
+  
+  @media only screen and (min-width: 1201px) and (max-width: 2500px)  {
+    .app-features-container .container.inner-container .row div:nth-child(2).feature-img {
+      padding-left: 139px;
+    }
+    
+  }
+  
+  @media only screen and (max-width:1024px){
+    .about .about-container .ac {
+      margin: 0 auto;
+      padding-left: 0;
+    }
+    .container-custom .banner-section .container.inner-container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .footer-container .container.inner-container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .express-thoughts-container .container.inner-container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    /* .app-features-container .feature-arrow{
+      position: unset;
+      padding-left: 276px;
+      padding-right: 150px;
+
+    } */
+    /* .app-features-container .feature-arrow-1 {
+      right: 0;
+      padding-left: 161px;
+      padding-right: 161px;
+    } */
+    /* .banner-section h1.main-header{
+      font-size: 130px;
+    } */
+    .banner-section h4.main-header-subtitle{
+      width: 100%;
+      padding: 20px 0 54px;
+    }
+    .zorro {
+      background-position: right 77% top 0%, right 4% top 26%, left 109px bottom 43%, right 107px bottom 54%;
+      min-height: auto;
+    }
+    /* about responsive */
+    /* .zorro.about-header{
+      min-height: auto;
+    } */
+    .about .zorro, .about section {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .zorro.about-header {
+      background-image: url(../images/banner/dots.png), url(../images/polygon/Polygon-small2.png),radial-gradient(#E2807F -205px,#AA4339 134%,#AA4339);
+      vertical-align: middle;
+      background-repeat: no-repeat,no-repeat,no-repeat;
+      background-position: right 10% top 38%, left 72px top 6%;
+      background-size: 14% 51%, 10% 41%, auto;
+      min-height: auto;
+    }
+    .about-header h1.main-header {
+      font-size: 6vh;
+      position: unset;
+    }    
+  }
+  @media screen and (min-width:1200px){
+    .app-features-container .feature-arrow {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .zorro{
+      min-height: auto;
+    }
+    .about .zorro, .about section {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    /* .about .a-head {
+      margin-left: 58px !important;
+    } */
+  }
+  @media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+    .app-features-container .container.inner-container .row div:nth-child(2).feature-img {
+      padding-left: 139px;
+    }
+    .container-custom .banner-section .container.inner-container {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    nav.navbar.main-menu {
+      padding-left: 40px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding: 5px 0px 9px 50px;
+    }
+    .banner-section h1.main-header {
+      line-height: 239px;
+      font-size: 10vh;
+    }
+    .app-features-container .feature.fr-1 {
+      right: 145px;
+    }
+    /* .app-features-container .feature-arrow-1 {
+      right: -146px;
+      max-width: 77%;
+    } */
+    .express-thoughts-container .container.inner-container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .footer-container .container.inner-container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .express-thoughts-container .inner-container .mob-2{
+      margin-top: 198px;
+    }
+    .express-thoughts-container .inner-container .mob-2, .footer-container .footer-social{
+      right:0;
+    }
+    .express-thoughts-container .inner-container h5 {
+      padding-bottom: 15px;
+    }
+    .express-thoughts-container .inner-container h1 {
+      padding-top: 50px;
+    }
+    .zorro {
+      background-position: right 3% top 22%, left 238px bottom 35%, right 223px bottom 30%;
+    }
+    /* about responsive */
+    .zorro.about-header{
+      min-height: auto;
+    }
+    .about .about-container .ac {
+      padding-left: 0;
+    }
+    .about-header h1.main-header{
+      position: unset;
+      font-size: 55px;
+      padding-left: 35px;
+    }    
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1366px)  {
+    .app-features-container .container.inner-container .row div:nth-child(2).feature-img {
+      padding-left: 146px;
+    }
+    .app-features-container .feature-arrow {
+      left: 0;
+      padding-left: 178px;
+      padding-right: 146px;
+    }
+    .app-features-container .feature-arrow-1 {
+      right: 0;
+      padding-left: 166px;
+      padding-right: 148px;
+    }
+    .banner-section h1.main-header{
+      font-size: 128px;
+    }
+    /* about responsive */
+    .zorro.about-header{
+      min-height: auto;
+    }
+    .about .about-header .a-head {
+      margin: 0 auto;
+      padding-left: 0;
+      margin-left: 40px !important;
+    } 
+  }
+  @media screen and (min-width:1600px){
+    .app-features-container .container.inner-container .row div:nth-child(2).feature-img {
+      padding-left: 243px;
+    }
+  }
+  
+  @media screen and (min-width:1900px){
+    
+  }
+  @media screen and (min-width: 2500px) {
+    .banner-section h4.main-header-subtitle {
+      padding-top: 0;
+      width: 67%;
+    }
+    .app-features-container .container.inner-container .row div:nth-child(2).feature-img{
+      padding-left: 243px;
+    }
+  }
+  
+  
+ 
+
+  @media screen and (max-width: 992px) {
+
+    .section {
+      padding: 5rem 0;
+    }
+
+    .nav-item .nav-link {
+      padding: 6px;
+    }
+
+    .navbar .social-icon {
+      margin-top: 22px;
+    }
+
+    .navbar-collapse,
+    .site-footer {
+      text-align: center;
+    }
+
+    .schedule-table {
+      display: block;
+    }
+
+    .modal-content {
+      padding: 2rem;
+    }    
+  }
+  
+  @media screen and (max-width:768px){
+    .container-custom {
+      max-width: 100%;
+      /* padding-left: 15px;
+      padding-right: 15px; */
+    }    
+  }
+  @media screen and (max-width: 767px) {
+
+    h1 {
+      font-size: 32px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+    .about-working-hours {
+      border-left: 0;
+      padding: 22px 0 0 0;
+    }
+
+    .contact h2 span {
+      display: block;
+    }
+    .container-custom {
+      max-width: 100%;
+      /* padding-right: 15px;
+      padding-left: 15px; */
+    }
+  }
+  
+  
+  
+ 
