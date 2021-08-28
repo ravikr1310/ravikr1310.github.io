@@ -1498,6 +1498,9 @@ nav.card-big-logo{
     .widget-49 .widget-49-meeting-action{
       text-align: center;
     }
+    .card-view .footer-menu {
+      padding-left: 15px;
+    }
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1024px)  {
@@ -1572,6 +1575,14 @@ nav.card-big-logo{
       font-size: 6vh;
       position: unset;
     }    
+    .cards-section .container.inner-container{
+      height: auto;
+    }
+  }
+  @media screen and (max-width:1200px){
+    .cards-section .container.inner-container{
+      height: auto;
+    }
   }
   @media screen and (min-width:1200px){
     .app-features-container .feature-arrow {
