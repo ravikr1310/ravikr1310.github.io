@@ -1686,7 +1686,10 @@ nav.card-big-logo{
       margin: 0 auto;
       padding-left: 0;
       margin-left: 40px !important;
-    } 
+    }
+    .card-view .footer-menu {
+      padding-left: 0;
+    }
   }
   @media screen and (min-width:1600px){
     .app-features-container .container.inner-container .row div:nth-child(2).feature-img {
