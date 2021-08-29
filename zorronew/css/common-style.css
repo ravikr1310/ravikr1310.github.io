@@ -1565,10 +1565,38 @@ nav.card-big-logo{
     }
     section.cards-section {
       padding-top: 0;
+      padding-left: 0%;
+      padding-right: 0;
+    }
+    .cards-section .col-lg-10 {
+      padding-left: 0;
+      padding-right: 0;
     }
     .chat-status .c1{
       display: inline;
+      padding: 5px;
+       line-height: 4;
     }
+    .card-social .c1:nth-child(1) {
+      padding-left: 0;
+    }
+    .card-social .c1 {
+      display: inline;
+      line-height: 4;
+  }
+    .card-view .card-social img {
+      margin-right: 5px;
+      width: 13vh;
+    }
+    .card-social {
+      padding: 0px 10px;
+      border-radius: 12px;
+      margin-bottom: 21px;
+  }
+    .cards-section .body-content p {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
     .widget-49 .widget-49-meeting-action{
       text-align: center;
     }
