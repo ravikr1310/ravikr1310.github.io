@@ -1207,7 +1207,7 @@ nav.card-big-logo{
     }
     .container-custom .container.inner-container{
       max-width: 100%;
-      padding: 10px 40px;
+      padding: 10px 0;
     }
     .footer-container .container.inner-container{
       padding: 35px 0px;
@@ -1216,10 +1216,11 @@ nav.card-big-logo{
       font-size: 32px;
       margin-bottom: 0;
       top: 0px;
-      line-height: 150px;
+      line-height: 110px;
     }
     .app-features-container h4 {
-      font-size: 28px;
+      font-size: 24px;
+      padding-bottom: 24px;
     }
     .express-thoughts-container .inner-container .mob-2{
       right:0
@@ -1240,7 +1241,7 @@ nav.card-big-logo{
     }
     .banner-section .pb-2, .py-2 {
       padding-bottom: 1rem!important;
-      font-size: 24px;
+      font-size: 18px;
     }
     .banner-section a.btn.btn-default {
       display: unset;
@@ -1253,11 +1254,21 @@ nav.card-big-logo{
     }
     .banner-section h4.main-header-subtitle {
       width: 100%;
-      font-size: 24px;
+      font-size: 18px;
       padding:0 50px 21px 50px
     }
-    .feature-img img,.mid-feature-img img{
+    .feature-img.f-img-1 img{
+      max-width: 4vh;
+    }
+    .feature-img.f-img-2 img{
+      max-width: 11vh;
+    }
+    .mid-feature-img img{
       max-width: 10vh;
+    }
+    .app-features-container .container p {
+      padding-bottom: 0;
+      font-size: 18px;
     }
     /* .app-features-container .container.inner-container .row:nth-child(1),.app-features-container .container.inner-container .row:nth-child(3){
       display: flex;
@@ -1277,32 +1288,39 @@ nav.card-big-logo{
       font-size: 2.2vh;
     }
     .express-thoughts-container .inner-container h5 {
-      padding-bottom: 28px;
-      font-size: 1.6vh;
+      padding-bottom: 0;
+      font-size: 2vh;
     }
     .express-thoughts-container .inner-container .mob-1 {
       text-align: center;
       padding-top: 0;
-      margin-top: -11px;
+      margin-top: 0;
+      padding-left: 0;
+      padding-right: 10px;
     }
-    .express-thoughts-container .inner-container .mob-2 {
-      margin-bottom: -9px;
+    /* .express-thoughts-container .inner-container .mob-2 {
+      margin-bottom: 0;
       text-align: center;
       margin-top: 159px;
+    } */
+    .social-icon{
+      padding-right: 58px;
     }
     .footer-menu ul.navbar-nav {
       padding-bottom: 0;
     }
     .logo-menu-container{
-      padding: 15px 15px 15px 55px
+      padding: 15px 0px 15px 0px
     }
     .navbar-toggler:not(:disabled):not(.disabled){
-      float: right;
+      position: absolute;
+      right: 18px;
+      top: 23px;
     }
     .app-features-container .feature.fr-2{
       right: 0;
       max-width: 70%;
-      top: 63px;
+      top: 33px;
     }
     .app-features-container .container.inner-container .row div:nth-child(1).feature-img{
       display: block;
@@ -1310,11 +1328,11 @@ nav.card-big-logo{
       padding-left: 0px;
       text-align: left;
       position: unset;
-      margin-left: -46px !important;
+      margin-left: 0px !important;
     }
     .app-features-container .feature-arrow-1{
       right: 0;
-      padding-left: 0;
+      padding-left: 45px;
     }
     nav.navbar.main-menu{
       background-color: #DD4413;
@@ -1332,14 +1350,13 @@ nav.card-big-logo{
       padding: 0;
       line-height: 2;
     }
-    .sl-container {
-      display: inline-block;
+    .sl-container {      
       background-color: #fff;
       border-radius: 100%;
       padding: 5px;
       height: 55px;
       width: 55px;
-      vertical-align: middle;
+      margin: 0 auto;
     }
     div.fordesktop{
       position: unset;
@@ -1349,7 +1366,7 @@ nav.card-big-logo{
     }
     .logo-menu-container .navbar-nav{
       min-width: 100%;
-      padding: 50px 0;
+      padding: 50px;
     }
     .main-menu li.nav-item {
       border-bottom: 1px solid rgb(243 239 239 / 14%);
@@ -1365,14 +1382,21 @@ nav.card-big-logo{
     }
     .zorro.banner-section{
       text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    section.footer-container.home-footer {
+      padding-left: 20px;
+      padding-right: 20px;
     }
     .app-features-container .container.inner-container .row div:nth-child(2).feature-img{
-      padding-left: 0px;
+      padding-left: 16px;
       max-width: 30%;
       margin-left: 0 !important;
     }
     .app-features-container .feature.fr-1{
       max-width: 70%;
+      padding: 15px 0 0;
     }
     .banner-section .social-icon{
       margin: 5px 0 37px 0;
@@ -1381,17 +1405,20 @@ nav.card-big-logo{
       max-width: 70%;
     }
     .express-thoughts-container .container.inner-container{
-      padding-left: 10px !important;
-      padding-right: 10px !important;
+      padding:0;
     }
     .express-thoughts-container .exp-th-con {
       max-width: 56%;
+      padding-left: 0;
     }
     .express-thoughts-container .inner-container .mob-1{
       max-width: 22%
     }
     .express-thoughts-container .inner-container .mob-2{
       max-width: 22%;
+      padding-right: 0;
+      padding-left: 10px;
+      margin-top: 134px;
     }
     .app-features-container .inner-container .row:nth-child(3) {
       padding: 40px 0 59px;
@@ -1409,11 +1436,19 @@ nav.card-big-logo{
       /* background-position: right 4% top 7%, left 22px bottom 50%, right 424px top 1%,right 20px top 52%; */
     }
     .banner-section img.overlap-mob {
-      max-width: 30vh;
+      max-width: 28vh;
     }
     .footer-container .social-row:nth-child(1){
       width: 40%;
       display: inline-block;
+    }
+    .footer-container .social-row:nth-child(1) img:nth-child(1){
+      width: 6vh;
+      padding-right: 0;
+    }
+    .footer-container .social-row:nth-child(1) img:nth-child(2){
+      width: 12vh;
+      padding-right: 0;
     }
     .footer-container .social-row:nth-child(2){
       width: 58%;
@@ -1421,12 +1456,21 @@ nav.card-big-logo{
       text-align: right;
     }
     .footer-container .social-row:nth-child(3) img{
-      padding-right: 30px;
+      padding-right: 0;
+      max-width: 4vh;
+      margin-right: 9px;
     }
-    .footer-container .social-row img {
+    .footer-container.home-footer .footer-menu .nav-item .nav-link {
+      padding: 0px 21px 10px 0px;
+      font-size: 2vh;
+    }
+    /* .footer-container .social-row img {
       padding-right: 3px;
       width: 12vh;
-    }
+    } */
+    /* .footer-container .social-row img:nth-child(1){
+      width: 10vh;
+    } */
     .footer-container .social-row:nth-child(2) a img {
       max-width: 12vh;
    }
@@ -1446,10 +1490,10 @@ nav.card-big-logo{
       background-size: 20% 51%, 10% 30%, auto !important;
       min-height: auto;
     }
-    .zorro, section{
+    /* .zorro, section{
       padding-right: 0;
       padding-left: 0;
-    }
+    } */
     .about .about-container .ac{
       padding-right: 0;
       padding-left: initial;
@@ -1506,6 +1550,14 @@ nav.card-big-logo{
     }
     .card-view .footer-menu {
       padding-left: 15px;
+    }
+    .app-features-container a.btn.btn-default {
+        margin-top: 28px;
+        margin-bottom: -16px;
+    }
+    .footer-container.home-footer .container.inner-container {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
   @media only screen and (min-width:375px) and (max-width:667px){
@@ -1590,6 +1642,9 @@ nav.card-big-logo{
     }    
     .cards-section .container.inner-container{
       height: auto;
+    }    
+    .zorro {
+      background-position: right 33px top 10%, right 86% top 2%, right 246px bottom 19%, left 65% bottom -1%;
     }
   }
   @media screen and (max-width:1200px){
@@ -1629,7 +1684,7 @@ nav.card-big-logo{
     }
     .banner-section h1.main-header {
       line-height: 239px;
-      font-size: 10vh;
+      font-size: 12vh;
     }
     .app-features-container .feature.fr-1 {
       right: 145px;
