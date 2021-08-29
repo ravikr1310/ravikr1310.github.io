@@ -1173,10 +1173,10 @@ nav.card-big-logo{
     .background-dots{
       margin-right: 0;
     }
-    /* .zorro,section{
+    .zorro,section{
       padding-right: 40px;
       padding-left: 40px;
-    }     */
+    }    
     .footer-container.home-footer .nav-item .nav-link {
       padding: 5px 28px 20px 0px;
     }
@@ -1513,6 +1513,7 @@ nav.card-big-logo{
     .about .footer-container .social-row:nth-child(1) {
       width: auto;
       display: inline-block;
+      margin-right: 5px;
     }
     .about .footer-container .social-row:nth-child(2) {
       width: auto;
@@ -1625,6 +1626,7 @@ nav.card-big-logo{
     .faq .footer-container .social-row:nth-child(1),.privacy .footer-container .social-row:nth-child(1) {
       width: auto;
       display: inline-block;
+      margin-right: 5px;
     }
     .faq .footer-container .footer-social, .privacy .footer-container .footer-social  {
       display: flex;
@@ -1646,6 +1648,11 @@ nav.card-big-logo{
       min-height: 0;
       display: none !important;
     }
+    .privacy .privacy-container{
+      padding-right: 25px;
+     padding-left: 25px;
+    }
+    
   }
   @media only screen and (min-width:375px) and (max-width:667px){
     .body-content {
@@ -1732,6 +1739,10 @@ nav.card-big-logo{
     }    
     .zorro {
       background-position: right 33px top 10%, right 86% top 2%, right 246px bottom 19%, left 65% bottom -1%;
+    }
+    .privacy .zorro, .privacy section {
+      padding-right: 0;
+      padding-left: 0;
     }
   }
   @media screen and (max-width:1200px){
