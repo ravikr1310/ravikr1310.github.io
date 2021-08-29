@@ -1729,7 +1729,10 @@ nav.card-big-logo{
     .nav-item .nav-link {
       padding: 6px;
     }
-
+    .about .nav-item .nav-link {
+      padding: 0px 3px;
+      font-size: 12px;
+    }
     .navbar .social-icon {
       margin-top: 22px;
     }
