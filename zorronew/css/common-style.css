@@ -1442,7 +1442,8 @@ nav.card-big-logo{
       padding-right: 14px;
     }
     /* about responsive */
-    .zorro.about-header{
+    .about section.zorro.about-header {
+      background-size: 20% 51%, 10% 30%, auto !important;
       min-height: auto;
     }
     .zorro, section{
