@@ -1443,11 +1443,11 @@ nav.card-big-logo{
       display: inline-block;
     }
     .footer-container .social-row:nth-child(1) img:nth-child(1){
-      width: 6vh;
+      width: 5vh;
       padding-right: 0;
     }
     .footer-container .social-row:nth-child(1) img:nth-child(2){
-      width: 12vh;
+      width: 11vh;
       padding-right: 0;
     }
     .footer-container .social-row:nth-child(2){
@@ -1457,7 +1457,7 @@ nav.card-big-logo{
     }
     .footer-container .social-row:nth-child(3) img{
       padding-right: 0;
-      max-width: 4vh;
+      max-width: 3vh;
       margin-right: 9px;
     }
     .footer-container.home-footer .footer-menu .nav-item .nav-link {
