@@ -1130,7 +1130,17 @@ nav.card-big-logo{
   padding-right: 0px;
 }
 
-
+.container-custom.faq .footer-container .container.inner-container{
+  background-color: var(--white-color);
+    border-top: 1px solid #c1c1c1;
+    padding-top: 32px;
+    padding-bottom: 45px;
+}
+.faq .footer-container .footer-social {
+  display: flex;
+  justify-content: center;
+  position: unset;
+}
 
 
 
@@ -1178,7 +1188,7 @@ nav.card-big-logo{
       max-width: 100%;
     }
     .about .about-container {
-      padding: 40px 0;
+      padding: 40px 50px;
     }
     /* .app-features-container .feature-arrow{
       display: none;
@@ -1290,6 +1300,7 @@ nav.card-big-logo{
     .express-thoughts-container .inner-container h5 {
       padding-bottom: 0;
       font-size: 2vh;
+      color:#000;
     }
     .express-thoughts-container .inner-container .mob-1 {
       text-align: center;
@@ -1489,6 +1500,7 @@ nav.card-big-logo{
     .about section.zorro.about-header {
       background-size: 20% 51%, 10% 30%, auto !important;
       min-height: auto;
+      padding: 0 50px;
     }
     /* .zorro, section{
       padding-right: 0;
@@ -1501,6 +1513,7 @@ nav.card-big-logo{
     .about .footer-container .social-row:nth-child(1) {
       width: auto;
       display: inline-block;
+      margin-right: 5px;
     }
     .about .footer-container .social-row:nth-child(2) {
       width: auto;
@@ -1523,6 +1536,17 @@ nav.card-big-logo{
     .about .zorro, .about section {
       padding-right: 0;
       padding-left: 0;
+    }
+    /* .faq .zorro, .faq section{
+      padding-right: 0;
+      padding-left: 0;
+    } */
+    /* .privacy .zorro, .privacy section{
+      padding-right: 0;
+      padding-left: 0;
+    } */
+    .privacy-sub-head {
+      font-size: 32px;
     }
     .container-custom.privacy .privacy-header .container.inner-container{
       display: none;
@@ -1559,6 +1583,76 @@ nav.card-big-logo{
       padding-left: 0;
       padding-right: 0;
     }
+    .about .footer-container .social-row:nth-child(2) a img{
+      max-width: 14vh;
+      padding-right: 0;
+    }
+    .about .footer-container .social-row:nth-child(1) img:nth-child(1){
+      width: 14vh;
+      padding-right: 0;
+    }
+    .privacy-container {
+      padding: 40px 25px;
+    }
+    /* .faq .zorro, .faq section,.privacy .zorro, .privacy section{
+      padding-right: 0;
+      padding-left: 0;
+    } */
+    .faq .footer-container .container.inner-container {
+      /* padding: 35px 0px; */
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      border-top: 1px solid #c1c1c1;
+    }
+    .privacy .footer-container .container.inner-container {
+      /* padding: 35px 0px; */
+      background: #fff;
+      display: flex;
+      justify-content: center;
+    }
+    .faq .footer-container .social-row:nth-child(1) img:nth-child(1),.privacy .footer-container .social-row:nth-child(1) img:nth-child(1) {
+      width: 14vh;
+      padding-right: 0;
+    }
+    .faq .footer-container .social-row:nth-child(2) a img,.privacy .footer-container .social-row:nth-child(2) a img {
+      max-width: 14vh;
+      padding-right: 0;
+    }
+    .faq .footer-container .social-row:nth-child(2),.privacy .footer-container .social-row:nth-child(2) {
+      width: auto;
+      display: inline-block;
+    }
+    .faq .footer-container .social-row:nth-child(1),.privacy .footer-container .social-row:nth-child(1) {
+      width: auto;
+      display: inline-block;
+      margin-right: 5px;
+    }
+    .faq .footer-container .footer-social, .privacy .footer-container .footer-social  {
+      display: flex;
+      justify-content: center;
+    }
+    .faq .footer-container .footer-menu,.privacy .footer-container .footer-menu {
+      display: flex;
+      justify-content: center;
+    }
+    .faq section.footer-container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    /* .privacy section.footer-container {
+      padding-left: 0;
+      padding-right: 0;
+    } */
+    .faq .zorro.privacy-header {
+      min-height: 0;
+      display: none !important;
+    }
+    .privacy .privacy-container{
+      padding-right: 25px;
+     padding-left: 25px;
+    }
+    
   }
   @media only screen and (min-width:375px) and (max-width:667px){
     .body-content {
@@ -1645,6 +1739,10 @@ nav.card-big-logo{
     }    
     .zorro {
       background-position: right 33px top 10%, right 86% top 2%, right 246px bottom 19%, left 65% bottom -1%;
+    }
+    .privacy .zorro, .privacy section {
+      padding-right: 0;
+      padding-left: 0;
     }
   }
   @media screen and (max-width:1200px){
