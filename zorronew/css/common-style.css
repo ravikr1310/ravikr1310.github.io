@@ -1177,6 +1177,9 @@ nav.card-big-logo{
     img{
       max-width: 100%;
     }
+    .about .about-container {
+      padding: 40px 0;
+    }
     /* .app-features-container .feature-arrow{
       display: none;
     } */
@@ -1204,7 +1207,7 @@ nav.card-big-logo{
     }
     .container-custom .container.inner-container{
       max-width: 100%;
-      padding: 10px 70px;
+      padding: 10px 40px;
     }
     .footer-container .container.inner-container{
       padding: 35px 0px;
@@ -1422,7 +1425,7 @@ nav.card-big-logo{
     }
     .footer-container .social-row img {
       padding-right: 3px;
-      width: 8vh;
+      width: 12vh;
     }
     .footer-container .social-row:nth-child(2) a img {
       max-width: 12vh;
@@ -1459,17 +1462,19 @@ nav.card-big-logo{
       display: inline-block;
       text-align: right;
     }
-    .about .footer-container .footer-social{
+    /* .about .footer-container .footer-social{
       display: inline-block;
       width: 55%;
-    }
+    } */
     .about .footer-container .footer-menu{
-      width:45%
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    .about .footer-menu ul.navbar-nav {
+    /* .about .footer-menu ul.navbar-nav {
       position: absolute;
       right: 15px;
-    }
+    } */
     .about .zorro, .about section {
       padding-right: 0;
       padding-left: 0;
@@ -1730,8 +1735,8 @@ nav.card-big-logo{
       padding: 6px;
     }
     .about .nav-item .nav-link {
-      padding: 0px 3px;
-      font-size: 12px;
+      padding: 0px 17px;
+      font-size: 18px;
     }
     .navbar .social-icon {
       margin-top: 22px;
