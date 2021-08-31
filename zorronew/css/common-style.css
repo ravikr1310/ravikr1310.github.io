@@ -1721,9 +1721,9 @@ nav.card-big-logo{
  
   
   @media only screen and (min-width: 1201px) and (max-width: 2500px)  {
-    .app-features-container .container.inner-container .row div:nth-child(2).feature-img {
+    /* .app-features-container .container.inner-container .row div:nth-child(2).feature-img {
       padding-left: 139px;
-    }
+    } */
     
   }
   
