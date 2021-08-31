@@ -1120,7 +1120,7 @@ nav.card-big-logo{
 }
 .cards-section .container.inner-container {
   max-width: 100%;
-  height: calc(100vh - 484px);
+  /* height: calc(100vh - 484px); */
 }
 .card-view .footer-menu {
   padding-left: 167px;
