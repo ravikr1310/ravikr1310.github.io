@@ -153,10 +153,13 @@ https://www.multidymenson.com/
   }
 .footer-container.home-footer .nav-item .nav-link{
   color: #fff;
-  padding: 5px 50px 20px 0px;
+  padding: 5px 50px 55px 0px;
 }
 .footer-container.home-footer .nav-item .nav-link:hover{
   color: #ff0000;
+}
+.about .footer-menu ul.navbar-nav,.privacy .footer-menu ul.navbar-nav,.faq .footer-menu ul.navbar-nav{
+  float: unset;
 }
   .navbar-brand {
     color: var(--white-color);
