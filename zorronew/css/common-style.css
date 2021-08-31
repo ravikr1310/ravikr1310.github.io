@@ -1202,6 +1202,12 @@ nav.card-big-logo{
     img{
       max-width: 100%;
     }
+    .footer-menu ul.navbar-nav{
+      float: unset;
+    }
+    .footer-menu .fs-1{
+        float: unset;
+    }
     .about .about-container {
       padding: 40px 50px;
     }
