@@ -668,8 +668,22 @@ section.express-thoughts-container {
   -----------------------------------------*/
 
 .footer-menu ul.navbar-nav{
-  flex-direction: row;
-  padding-bottom: 19px;
+  display: inline;
+  float: right;
+  /* flex-direction: row;
+  padding-bottom: 19px; */
+}
+.footer-menu .fs-1{
+  display: inline;
+    float: right;
+  list-style: none;
+  padding-left: 0;
+  color: #fff;
+  padding-right: 75px;
+  line-height: 3;
+}
+li.nav-item {
+  display: inline-block;
 }
 .footer-menu p{
   color: var(--white-color);
@@ -1083,6 +1097,7 @@ nav.card-big-logo{
 .card-social .c1 {
   display: flex;
   align-items: center;
+  font-size: 21px;
 }
 .card-footer-container .footer-social {
   text-align: right;
@@ -1123,7 +1138,7 @@ nav.card-big-logo{
   /* height: calc(100vh - 484px); */
 }
 .card-view .footer-menu {
-  padding-left: 167px;
+  /* padding-left: 167px; */
 }
 .cards-section .card-social .row {
   padding-left: 30px;
