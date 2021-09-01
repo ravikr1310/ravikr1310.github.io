@@ -2220,6 +2220,8 @@ nav.card-big-logo{
     } */
     section.cards-section {
       padding-top: 31px;
+      padding-left: 0;
+      padding-right: 0;
     }
     .body-content {
       padding: 10px 5px;
@@ -2312,7 +2314,7 @@ nav.card-big-logo{
       padding-right: 0;
     } */
     .footer-container .social-row:nth-child(2) a img {
-      max-width: 12vh;
+      max-width: 11vh;
     }
     .express-thoughts-container .container.inner-container {
       padding: 0;
@@ -2529,6 +2531,18 @@ nav.card-big-logo{
     .about-header .container.inner-container .row {
       margin-right: 0;
       margin-left: -15px;
+    }
+    .footer-container .social-row:nth-child(1) img:nth-child(1) {
+      width: 5vh;
+      padding-right: 0;
+    }
+    .footer-container .social-row:nth-child(1) img:nth-child(2) {
+      width: 11vh;
+      padding-right: 0;
+    }
+   .l-page section.footer-container.home-footer {
+    padding-left: 25px;
+    padding-right: 25px;
     }
   }
   
