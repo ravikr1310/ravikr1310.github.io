@@ -1451,8 +1451,8 @@ nav.card-big-logo{
     }
     section.footer-container.home-footer {
       padding-top: 40px;
-      padding-right: 40px;
-      padding-left: 40px;
+      padding-right: 20px;
+      padding-left: 20px;
     }
     .app-features-container .container.inner-container .row div:nth-child(2).feature-img{
       padding-left: 16px;
@@ -2314,7 +2314,7 @@ nav.card-big-logo{
       padding-right: 0;
     } */
     .footer-container .social-row:nth-child(2) a img {
-      max-width: 11vh;
+      max-width: 8vh;
     }
     .express-thoughts-container .container.inner-container {
       padding: 0;
@@ -2533,11 +2533,11 @@ nav.card-big-logo{
       margin-left: -15px;
     }
     .footer-container .social-row:nth-child(1) img:nth-child(1) {
-      width: 5vh;
+      width: 4vh;
       padding-right: 0;
     }
     .footer-container .social-row:nth-child(1) img:nth-child(2) {
-      width: 11vh;
+      width: 10vh;
       padding-right: 0;
     }
    .l-page section.footer-container.home-footer {
