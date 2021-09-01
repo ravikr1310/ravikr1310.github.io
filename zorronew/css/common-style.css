@@ -310,8 +310,10 @@ div.fordesktop {
     background-image: url(../images/banner/dots.png), url(../images/polygon/Polygon-small2.png), url(../images/polygon/Polygon-small1.png),radial-gradient(#E2807F -205px,#AA4339 134%,#AA4339);
     vertical-align: middle;
     background-repeat: no-repeat,no-repeat,no-repeat, repeat-x;
-    background-position: right 10% top 38%, left 163px top 18%,right 621px bottom 53%;
-    min-height: 56vh;
+    background-position: right 13% top 16%, left 196px top -14%,left 797px bottom 63%;
+    /* min-height: 56vh; */
+    padding-top: 100px;
+    padding-bottom: 202px;
   }
   .about-header h1.main-header {
     font-size: 82px;
@@ -336,8 +338,12 @@ div.fordesktop {
     position: unset;
 }
 .about .about-container .ac {
-  margin: 0 auto;
-  padding-left: 316px;
+  /* margin: 0 auto;
+  padding-left: 316px; */
+}
+.about .footer-container .footer-menu {
+  padding-left: 0;
+  left: -12px;
 }
 .container-custom.about .container.inner-container{
   max-width: 100%;
@@ -1172,7 +1178,12 @@ nav.card-big-logo{
   float: right;
   margin-bottom: 0;
 }
-
+/* .about .zorro, .about section {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 100px;
+  padding-bottom: 193px;
+} */
 
 
   /*---------------------------------------
@@ -1856,6 +1867,8 @@ nav.card-big-logo{
     .about .zorro, .about section {
       padding-right: 0;
       padding-left: 0;
+      /* padding-top: 100px;
+      padding-bottom: 193px; */
     }
     /* .about .a-head {
       margin-left: 58px !important;
